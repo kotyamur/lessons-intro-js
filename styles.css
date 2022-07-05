@@ -1,0 +1,81 @@
+body {
+    margin: 0;
+    background: url("images/sky.jpg");
+    font-family:  Tahoma;
+    line-height: 1.5;
+    font-size: 18px;
+    background-size: 100%;
+}
+
+.card {
+    box-sizing: border-box;
+    width: 400px;
+    margin: 30px auto;
+    padding: 40px;
+    background-color: #a996c9;
+    box-shadow: 0 10px 20px #b727b1;
+    border-radius: 10px;
+}
+
+.card--pink {
+    background-color: #e780e1;
+}
+
+.btn {
+    background-color: #244583;
+    color: aliceblue;
+    padding: 15px;
+    width: 100px;
+    cursor: pointer;
+}
+
+.btn-active {
+    background-color: #b727b1;
+}
+
+.card-foto {
+    display: block;
+    width: 300px;
+    height: 170px;
+    margin: 0 auto;
+    border-radius: 20px;
+}
+
+.card-title {
+    font-size: 36px;
+    text-align: center;
+    color: #b83cb1;
+}
+
+.card-text {
+    font-size: 18px;
+}
+
+.card-subtitle {
+    font-size: 30px;
+    color: #244583;
+}
+
+.card-list {
+    padding-left: 0;
+    list-style-position: inside;
+    font-size: 18px;
+}
+
+.card-list a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.tabs-content {
+    background-color: rgb(243, 196, 243);
+    padding: 15px;
+}
+
+.tabs-item {
+    display: none;
+}
+
+.tabs-item.active {
+    display: block;
+}
